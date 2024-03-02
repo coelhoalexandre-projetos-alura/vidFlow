@@ -21,7 +21,7 @@ async function buscarEMostrarVideos() {
             `;
         })
     } catch(error) {
-        containerVideos.innerHTML = `<p>Hiuve um erro ao carregar os vídeos ${error}</p>`
+        containerVideos.innerHTML = `<p>Houve um erro ao carregar os vídeos ${error}</p>`
     };
 
 }
