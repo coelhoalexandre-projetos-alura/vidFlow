@@ -23,30 +23,53 @@
 
 ## Sobre o Projeto
 
-
+Projeto instruido por [**Rafaela Silvério**](https://github.com/rafaelasilverio) no curso [JavaScript: consumindo e tratando dados de uma API](https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-uma-api). Todo o curso é baseado no dados de API.
 
 ## Objetivos do Projeto
 
-
+- Aprender a consumir uma API com JavaScript;
+- Utilizar funções assíncronas;
+- Conhecer Promises e seus métodos;
+- Criar filtros dinâmicos para os dados da API;
+- Trata possíveis erros.
 
 ## Funcionalidades do Projeto
 
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/vidflow-pesquisar.png" alt="Pesquisar do VidFlow">
 
+- A cada letra digitado será feito um busca nos videos salvos, se encontrar um video que corresponde ira apresentar em lista.
+  
+<img src="https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/vidflow-topicos.png" alt="Categorias do VidFlow">
+
+- Ao clicar em uma das categorias, os vídeos serão reorganizados monstrando apenas aqueles que tem a categoria correpondente.
 
 ## Tecnolgias Utilizadas
 
-
+1. HTML
+2. CSS
+3. JS
 
 ## Layouts
 
 ### Desktop Layout
 
+**Width 1920px:** https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/vidflow-1920px.jpg
+
+<br>
+
+**Width 1280px:** https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/vidflow-1280px.jpg
+
 ### Tablet Layout
+
+**Width 768px:** https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/vidflow-768px.jpg
 
 ### Mobile Layout
 
+**Width 480px:** https://github.com/coelhoalexandre/projetos-alura/blob/main/imagens/vidflow-480px.jpg
+
 ## Adaptações
 
+Uma pequena adaptação realizada no projeto foi alterar o link no qual a API será consumida. No curso é mostrado um método de fazer isso por meio do JSON Server, entretanto por não funcionar na hora de passar ao GitHub Pages e Vercel, alterei o link para o 
 ## Autor
 
 - Nome(s), redes e forma de contato. 
