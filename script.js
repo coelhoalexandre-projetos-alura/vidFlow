@@ -3,7 +3,7 @@ const containerVideos = document.querySelector('.videos__container');
 async function buscarEMostrarVideos() {
 
     try {
-        const busca = await fetch("http://localhost:3000/videos");
+        const busca = await fetch("https://coelhoalexandre.github.io/projeto-alura-vidflow/backend/videos.json");
         const videos = await busca.json();
     
         videos.forEach((video) => {
