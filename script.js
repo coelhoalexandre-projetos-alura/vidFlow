@@ -1,11 +1,15 @@
 const containerVideos = document.querySelector('.videos__container');
 
+let videos = [];
+const endpointDaAPI = "https://coelhoalexandre.github.io/projeto-alura-vidflow/backend/videos.json"
+
 async function buscarEMostrarVideos() {
 
     try {
-        const busca = await fetch("https://coelhoalexandre.github.io/projeto-alura-vidflow/backend/videos.json");
-        const videos = await busca.json();
-    
+        const busca = await fetch(endpointDaAPI);
+        videos = await busca.json();
+
+        console.log(videos)
         videos.forEach((video) => {
             containerVideos.innerHTML += `
             <li class="videos__item">
