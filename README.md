@@ -69,13 +69,10 @@ Projeto instruido por [**Rafaela Silvério**](https://github.com/rafaelasilverio
 
 ## Adaptações
 
-Uma pequena adaptação realizada no projeto foi alterar o link no qual a API será consumida. No curso é mostrado um método de fazer isso por meio do JSON Server, entretanto por não funcionar na hora de passar ao GitHub Pages e Vercel, alterei o link para o 
+Uma pequena adaptação realizada no projeto foi alterar o link no qual a API será consumida. No curso é mostrado um método de fazer isso por meio do JSON Server, entretanto por não funcionar na hora de passar ao GitHub Pages e Vercel, alterei o link para o proprio arquivo json que funciona na GitHub pages. https://coelhoalexandre.github.io/projeto-alura-vidflow/backend/videos.json. Então enquanto o GitHub Pages funcionar, será possivel consumir a API.
+
 ## Autor
-
-- Nome(s), redes e forma de contato. 
-- Talvez um breve resumo sobre cada um.
-
-Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. [Falar sobre meu papel no projeto, seu eu fiz tudo ou só modifiquei.
+Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. Aprendi a consumir uma API e reproduzi-las na tela, como também usar métodos nelas neste curso com a instrução de [**Rafaela Silvério**](https://github.com/rafaelasilverio).
 
 Logo abaixo estão os meus principais links, fique a vontade de acessar o que mais lhe interessar:
 
